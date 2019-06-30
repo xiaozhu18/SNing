@@ -1,0 +1,306 @@
+/*正品保障帮助中心和底部*/
+#layout_foot{
+	width: 100%;
+	margin-top:45px;
+	height: 514px;
+	background: #F5F5F5;
+	font-family: "微软雅黑";
+}
+#serv{
+	width: 1190px;
+	margin: 0 auto;
+}
+#layout_foot .ng-promise {
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px 0;
+    width: 1190px;
+    overflow: hidden;
+}
+#layout_foot .ng-promise dl {
+    float: left;
+    overflow: hidden;
+    width: 230px;
+}
+#layout_foot .ng-promise dt {
+    background: rgba(0, 0, 0, 0) url("../img/s_pic1.png") no-repeat scroll 0 0;
+    float: left;
+    height: 48px;
+    margin-right: 8px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 48px;
+}
+#layout_foot .ng-promise dt.zheng {
+    background-position: 0 0;
+}
+#layout_foot .ng-promise dt.jisu {
+    background-position: -48px 0;
+}
+#layout_foot .ng-promise dt.wuyou {
+    background-position: -96px 0;
+}
+#layout_foot .ng-promise dt.te {
+    background-position: -144px 0;
+}
+#layout_foot .ng-promise dt.help {
+    background-position: -191px 0;
+}
+#layout_foot .ng-promise dd {
+    float: left;
+    height: 48px;
+    width: 140px;
+}
+#layout_foot .ng-promise dd p {
+    color: #545454;
+    line-height: 24px;
+    width: 100%;
+}
+#layout_foot .ng-promise dd p strong {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+#layout_foot .ng-help-box {
+    float: left;
+    height: 180px;
+    width: 1050px;
+}
+#layout_foot .ng-help-box dl {
+    float: left;
+    height: 160px;
+    width: 210px;
+}
+#layout_foot .ng-help-box dt {
+    color: #545454;
+    font-size: 14px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 40px;
+    overflow: hidden;
+    width: 100%;
+}
+#layout_foot .ng-help-box dd {
+    line-height: 22px;
+    width: 100%;
+}
+#layout_foot .ng-help-box dd a {
+    color: #545454;
+}
+#layout_foot .ng-help-box dd a:hover {
+    color: #f60;
+}
+#layout_foot .ng-hot-line {
+    border-left: 1px solid #eaeaea;
+    float: left;
+    height: 180px;
+    margin-left: -41px;
+    padding-left: 40px;
+    width: 190px;
+}
+#layout_foot .ng-hot-line p, #layout_foot .ng-app-down p {
+    color: #545454;
+    font-size: 14px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+#layout_foot .ng-hot-line b {
+    background: rgba(0, 0, 0, 0) url("../img/s_pic1.png") no-repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 55px;
+}
+#layout_foot .ng-hot-line b.phone {
+    background-position: 0 -144px;
+    width: 160px;
+}
+#layout_foot .ng-hot-line b.phone-num {
+    background-position: -80px -144px;
+    width: 0;
+}
+#layout_foot .ng-hot-line a.online {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #212121;
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+#layout_foot .ng-hot-line a.online em {
+    color: #f90;
+    font-size: 18px;
+    margin-right: 2px;
+}
+.ng-app-down {
+    float: left;
+    height: 180px;
+    width: 90px;
+    /*margin-left: 40px;*/
+}
+#layout_partner{
+	width: 100%;
+	height: 260px;
+	background: white;
+	margin-top: 180px;
+}
+#partner{
+	width: 1190px;
+	margin: 0 auto;
+
+}
+.ng-new-pro-list {
+    margin-left: -50px;
+    width: 850px;
+}
+.ng-new-pro-list dl {
+    padding: 0 50px;
+    width: 324px;
+    float: left;
+}
+.ng-new-pro-list dd {
+    width: 224px;
+    float: left;
+
+}
+.ng-sort {
+    margin-left: -595px;
+}
+.ng-nav-index {
+    margin-left: -405px;
+    width: 785px;
+}
+.ng-search .g-search-fixed {
+    margin-left: -265px;
+}
+.ng-new-pro-list dt {
+    float: left;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 80px;
+}
+ .ng-new-pro-list dd p.ng-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.ng-new-pro-list dd p.ng-intro {
+    line-height: 18px;
+}
+.ng-new-pro-list dd p a {
+    color: #eee;
+    text-decoration: none;
+}
+.ng-serch-suning {
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    width: 390px;
+    color: #eee;
+}
+.ng-serch-suning dt {
+    background: rgba(0, 0, 0, 0) url("../img/s_pic1.png") no-repeat scroll 0 -50px;
+    float: left;
+    height: 94px;
+    margin-top: 3px;
+    width: 140px;
+}
+.ng-new-pro-con{
+	position: relative;
+	top: 12px;
+}
+.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+.ng-url-list a {
+    color: #f9f9f9;
+}
+.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-authentication {
+    /*float: left;*/
+    height: 25px;
+    margin-top: 5px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+}
+.ng-authentication a {
+    display: inline-block;
+    margin-right: 8px;
+    
+}
+.ng-copyright {
+    color: #999;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    width: 640px;
+}
+.ng-toolbar {
+    z-index: 7690;
+}
+.ng-toolbar .ng-bar-node {
+    z-index: 7692;
+}
+.ng-toolbar .ng-d-box {
+    z-index: 7691;
+}
+.foot_list{
+	width: 1190px;
+	margin: 0 auto;
+	height: 120px;
+	/*position: relative;*/
+	/*top: 125px;*/
+}
+.foot_list p{
+	float: left;
+}
+.ng-footer {
+    height: 130px;
+    margin-top: 0px;
+}
+.ng-s-footer {
+    height: 130px;
+    background: none;
+    text-align: center;
+    
+}
+.ng-s-footer {
+    text-align: center;
+    
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+}
+.ng-s-footer p.ng-url-list {
+    line-height: 25px;
+}
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+}
+.ng-s-footer .ng-authentication {
+    float: none;
+    margin: 0 auto;
+        margin-top: 0px;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+}
+/*正品保障帮助中心和底部*/

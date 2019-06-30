@@ -1,0 +1,42 @@
+/*左侧导航*/
+
+#float_left{
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	z-index: 9998;
+	display: none;
+
+}
+#float_left li{
+	background:orange;
+	height: 25px;
+	margin-top: -1px;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid orangered;
+	text-align: center;
+}
+/*#float_left li .name{
+	background: ghostwhite;
+	color: black;
+	display: none;
+	height: 20px;
+	padding-top: 7px;
+	width: 60px;
+	
+
+}
+#float_left li a.icon{
+	color: #b8b8b8;
+	font-size: 20px;
+	line-height: 40px;
+	width:60px;
+}*/
+
+#float_left li a{
+	display: block;
+	text-decoration: none;
+	list-style: none;
+}
+/*左侧导航结束*/

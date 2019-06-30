@@ -1,0 +1,505 @@
+@charset"UTF-8";
+#daohangfenlei{
+	width:100%;
+	height: 3350px;
+	background-color: white;
+	border-top:3px solid  #333 ;
+/*	background-color: aqua;*/
+}
+.pc_search{
+	margin-top: -60px;
+	margin-left:650px;
+}
+.crumbs {
+	width: 1190px;
+	margin: 15px auto 0;
+	font-size: 14px;
+	min-height: 24px;
+	position: relative;
+	/*border-bottom: 1px solid red;*/
+}
+#search-path {
+	border-bottom: 0!important;
+	margin-bottom: 9px;
+	margin-left:20px;
+}
+
+.crumbs a {
+	color: #666
+}
+
+.crumbs a:hover {
+	color: #F60;
+	text-decoration: none
+}
+
+.crumbs .result-right {
+	float: left;
+	line-height: 24px
+}
+
+.crumbs .allResult {
+	float: left;
+	line-height: 24px
+}
+
+.crumbs .icon-right {
+	float: left;
+	background: url(../img/icons.png) no-repeat -280px -234px;
+	width: 5px;
+	height: 9px;
+	vertical-align: middle;
+	margin: 7px 10px 14px
+}
+
+.crumbs dl {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	z-index: 200;
+	border-radius: 2px;
+}
+
+.crumbs dl:hover {
+	overflow: visible
+}
+
+.crumbs dl:hover dt {
+	z-index: 41;
+	border-bottom-color: #fff
+}
+
+.crumbs dl:hover dt a {
+	color: #F60
+}
+
+.crumbs dl:hover dd {
+	z-index: 40;
+	display: block;
+}
+
+.crumbs dl dt {
+	padding: 0 7px;
+	line-height: 22px;
+	height: 22px;
+	border: 1px solid #ddd;
+	position: relative
+}
+
+.crumbs dl dt a:hover {
+	text-decoration: none
+}
+
+.crumbs dl dt .icon-down {
+	display: inline-block;
+	-webkit-transition: -webkit-transform .4s cubic-bezier(0, .39, 0, .98);
+	transition: -webkit-transform .4s cubic-bezier(0, .39, 0, .98);
+	transition: transform .4s cubic-bezier(0, .39, 0, .98);
+	transition: transform .4s cubic-bezier(0, .39, 0, .98), -webkit-transform .4s cubic-bezier(0, .39, 0, .98);
+	-webkit-transform: rotate(0);
+	transform: rotate(0);
+	background: url(../img/icons.png) no-repeat -198px -235px;
+	width: 11px;
+	height: 6px;
+	margin-left: 5px;
+	margin-right: 0;
+	float: none;
+	vertical-align: middle;
+	margin-top: -2px
+}
+
+.crumbs dl dd {
+	width: 605px;
+	border: 1px solid #ddd;
+	padding: 20px 0 20px 20px;
+	position: absolute;
+	top: 23px;
+	background-color: #fff;
+	line-height: 24px
+}
+
+.crumbs dl dd a {
+	float: left;
+	width: 96px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-right: 25px;
+	font-size: 12px
+}
+.crumbs .goods-special {
+	margin: 0 6px 6px 0;
+	background-color: #F8F8FA;
+	border-radius: 2px;
+	z-index: 90
+}
+
+.crumbs .goods-special dt {
+	padding: 0 10px;
+	border-color: #F8F8FA;
+	line-height: 22px;
+	height: 22px
+}
+
+.crumbs .goods-special dt a em {
+	color: #F60;
+	max-width: 160px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: text-top;
+	line-height: 20px
+}
+
+.crumbs .goods-special dd {
+	background-color: #fff;
+	top: 23px;
+	border: 0;
+	padding: 10px 0 20px 20px
+}
+
+.crumbs .goods-special dd span {
+	display: inline-block;
+	width: 100%;
+	font-size: 12px;
+	font-weight: 600;
+	color: #666;
+	margin-bottom: 10px
+}
+
+.crumbs .goods-special dd .dd-box {
+	max-height: 190px;
+	overflow: hidden
+}
+
+.crumbs .goods-special:hover {
+	background-color: #fff
+}
+
+.crumbs .goods-special:hover dt {
+	border-color: #ddd;
+	border-bottom-color: #fff
+}
+
+.crumbs .goods-special:hover dd {
+	border: 1px solid #ddd
+}
+
+.crumbs .goods-special.hover {
+	color: #F60;
+	border-color: #F60;
+	background-color: #fff6e5
+}
+
+.crumbs .goods-special.hover a {
+	color: #F60
+}
+
+.crumbs .clear-all {
+	border: 1px solid #ddd;
+	color: #999;
+	float: left;
+	padding: 0 10px;
+	margin-left: 30px;
+	line-height: 17px;
+	margin-top: 2px;
+	font-size: 12px;
+	border-radius: 2px;
+	white-space: nowrap
+}
+
+.crumbs .clear-all:hover {
+	border-color: #F60
+}
+
+.crumbs.crumbsTV dl {
+	border-radius: 2px
+}
+
+.crumbs.crumbsTV dl:hover dt {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0
+}
+
+.crumbs.crumbsTV dl dt {
+	border-radius: 2px
+}
+
+.crumbs.crumbsTV .goods-special {
+	border-radius: 2px
+}
+ .filter-section {
+    zoom: 1;
+    border-top: 1px dotted #eee;
+    margin-left:150px
+}
+.s-left {
+    float: left;
+    width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.filter-section .s-left label {
+    padding-left: 10px;
+    line-height: 40px;
+    color: #999;
+    font-size: 12px;
+}
+ .filter-section .s-right {
+    float: left;
+    position: relative;
+    width: 1060px;
+    padding: 0 0 0 20px;
+    background-color: #fff;
+    *z-index: 50;
+    font-size: 12px;
+    overflow: hidden;
+}
+ .f-item {
+    max-width: 138px;
+    float: left;
+    margin-right: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    zoom: 1;
+}
+.wangluo{
+	width:1190px;
+	height:60px;
+	margin:0 auto;
+	 border-top: 1px dotted #eee;
+	margin-top:-10px;
+	margin-left:50px;
+	 /*border-bottom: 1px dotted #eee;*/
+	
+
+/* 	margin-left:80px ;
+	margin-top:-10px */
+}
+.wangluo a {
+	
+	line-height:2;
+	margin-left:50px
+}
+.wangluo a :hover{
+	color: orange;
+	}
+.wangluo1{
+width:1190px;
+height:60px;
+margin:0 auto;
+border-top: 1px dotted #eee;
+margin-left:50px;
+/*border-bottom: 1px dotted #eee;*/
+/* 	margin-left:80px ;
+margin-top:-10px */
+}
+.wangluo1 a {
+	
+	line-height:2;
+	margin-left:50px
+}
+	/*888888888888888888888*/
+	.multiple {
+    position: absolute;
+    right: 250px;
+    top: 300px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 18px 0 6px;
+    color: #666;
+    border-radius: 2px;
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.multiple1 {
+    position: absolute;
+    right: 250px;
+    top: 360px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 18px 0 6px;
+    color: #666;
+    border-radius: 2px;
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    text-decoration: none;
+}
+ .icon-mul {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+    background: url(../img/icons.png) no-repeat -121px -257px;
+    width: 10px;
+    height: 10px;
+}
+.zonghe{
+	width: 1190px;
+	height: 40px;
+	background-color: gainsboro;
+	/*margin: 0 auto;*/
+	margin-top: 10px;
+	margin-left: 50px;
+	position:absolute;
+}
+.zonghe span{
+	border-bottom:2px solid orange ;
+	line-height:40px;
+	font-size:16px;
+	position:relative;
+	left:50px
+}
+.zonghe a{
+	margin-left: 80px;
+}
+.interval-input {
+    float: right;
+    margin: 7px 0;
+    position:relative;
+    left:-600px
+}
+ .interval-input input {
+    float: right;
+    box-sizing: content-box;
+    padding: 0 4px 0 14px;
+    line-height: 24px;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+    height: 24px;
+    width: 36px;
+    background: #FFF url(../img/icons.png) no-repeat -186px -126px;
+}
+.interval-input i {
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 3px;
+    color: #999;
+}
+.shouhuodi{
+	width: 60px;
+	position: relative;
+	left: 250px;
+	text-align: center;
+}
+.shouhuodi1{
+	width: 60px;
+	position: relative;
+	left: 250px;
+	text-align: center;
+}
+#shangpin01{
+	width: 1190px;
+	height: 3000px;
+	background-color:white;
+}
+.box01{
+	width: 222.5px;
+	height:460px;
+	background-color: #FFF;
+	position: relative;
+	top: 10px;
+	border: 1px solid ghostwhite;
+	float: left;
+	margin-left: 13px;
+}
+/*.box01:hover{
+	width: 225px;
+	height:464px;
+}*/
+.pic{
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    background: url(../img/loading.7.gif) no-repeat center center;
+}
+.pic:hover{
+	 border: 2px solid #FFF6E5;
+	}
+.price{
+	color: red;
+}
+.gInf{
+	border: 1px solid orange;
+	width: 60px;
+	color: orangered;
+	margin-top:10px;
+}
+.gInf:hover{
+	background-color: orange;
+}
+.buy{
+	color: white;
+	height:20px;
+	display: inline-block;
+	background-color:orange;
+	margin-top:10px;
+}
+.buy:hover{
+	background-color: orangered;
+}
+.bottom{
+	font-size: 12px;
+	/*color: deeppink;*/
+	/*background: green;*/	
+	height:30px ;			
+}
+.lingjuan{
+	color: white;
+    height: 20px;
+    width: 90px;
+    display: inline-block;
+    
+    background-color: orange;
+    margin-top: 10px;			
+}
+.lingjuan:hover{
+	background-color: orangered;
+}
+.pic1{
+	width: 32px;
+    height: 32px;
+    margin-left: -70px;
+     border:1px solid gainsboro;
+}
+.pic1:hover{
+	border: 1px solid purple;
+}
+
+.duibi{
+    height: 20px;
+    width: 50px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-top:20px;
+}
+.duibi:hover{
+	border: 1px solid orange;
+}
+.shouchang{
+	height: 20px;
+    width: 50px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-left:60px;
+     margin-top:-22px;
+}
+.shouchang:hover{
+	border: 1px solid orange;
+}
+.jiarugouwuche{
+	height: 20px;
+    width: 80px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-left:120px;
+     margin-top:-22px;
+}
+.jiarugouwuche:hover{
+	border: 1px solid orange;
+}

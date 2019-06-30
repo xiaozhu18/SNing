@@ -1,0 +1,244 @@
+.lg-wrapper {
+    height: 90px;
+   /* background-color: aqua;*/
+}
+.lg-wrapper {
+  padding: 0 10px;
+    width:1000px;
+    margin: 0 auto;
+}
+ .lg-logo {
+    float: left;
+    height: 90px;
+}
+.r-word {
+      float: right;
+    margin-top: -25px;
+    color: #323232;
+    font-size: 12px;
+    cursor: pointer;
+}
+.ico-edit {
+    height: 18px;
+    background: url(../img/spritesheet.png) -144px -1px no-repeat;
+}
+.ico-down, .ico-edit {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    width: 18px;
+}
+.bind-phone {
+     float: left;
+    color: #333;
+    background: #fefff1;
+    border: 1px solid #fecd66;
+    line-height: 16px;
+    padding: 4px 6px;
+    margin-top:-60px;
+    margin-left:200px;
+}
+.denglu{
+	width: 100%;
+	height: 570px;
+	background: url(../img/154745781731948316.png) center no-repeat;
+	background-color: blue;
+}
+.denglu1{
+	width: 360px;
+	height: 432px;
+	background-color: white;
+	position: absolute;
+	right: 220px;
+	top: 180px;
+}
+.all{
+    width: 360px;
+    height: 432px;
+}
+.nav{
+    height: 50px;
+}
+.nav>a{
+    padding: 0 15px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+     border-bottom:1px solid ghostwhite;
+}
+.nav>a[class="on-2-login"]{
+    background-color: #89caf4;
+    border-bottom: 1px solid #eee;
+}
+.login{
+    background-color: white
+}
+.login.on{
+     border-bottom:3px solid orange;
+}
+/*.nav p{
+	font-size: 20px;
+	line-height:2;
+}*/
+.contentbox{
+    width: 360px;
+}
+.duanxin{
+	line-height: 0px;
+	font-size: 8px;
+	display:block;
+	margin-left:-205px
+}
+.mianfei{
+	display:block;
+	font-size: 5px;
+	margin-top:10px;
+	text-align:center;
+}
+.disanfang{
+	text-align: center;
+	margin-top: 20px;
+	color:#999;
+}
+.disanfang1 {
+    text-align: center;
+    margin-top: 20px;
+    color:#999;
+}
+.cont-1 p{
+	font-size: 12px;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-left:-210px;
+	/*display: none;*/
+}
+.cont-1>input{
+    width: 270px;
+    height: 38px;
+    border: 1px solid #c6cddc;
+}
+.email{
+    background-image: url("../img/yonghu.png");
+    background-repeat: no-repeat;
+    background-position: 3px 0px;
+}
+.password{
+    background-image: url("../img/mima.png");
+    background-repeat: no-repeat;
+}
+.cont-1>input{
+    line-height: 46px;
+    padding-left: 40px;
+}
+.cont-1>input[name="txt"]{
+    margin-top: 35px;
+}
+.cont-1>input[name="psd"]{
+    margin-top: 17px;
+}
+.verify{
+    margin: 0 auto;
+    width: 352px;
+    height: 40px;
+    margin-top: 16px;
+    border: 1px solid #c4cbd1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: #b9bbb8;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    behavior: url(PIE.htc);
+}
+.verify:hover{
+    cursor: pointer;
+}
+.btn{
+     width: 310px;
+    height: 40px;
+    background-color: #f60;
+  /*  margin-top: 30px;*/
+    font-size: 20px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: orange;
+}
+.about{
+    width: 360px;
+    height: 26px;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+.about i{
+	background: url(../img/sprite.png) -21px -149px no-repeat;
+}
+/*.about>a{
+	display:block;
+	margin-left:-70px;
+    text-decoration: none;
+    color: black;
+}*/
+.about>a>span{
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    border: 1px solid #ccd2d0;
+}
+/*cont:2*/
+.cont-2>.text{
+    margin: 0 auto;
+    width: 350px;
+    height: 30px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.cont-2>.text>a{
+    text-decoration: none;
+    color: #4174a9;
+    font-weight: bold;
+}
+.cont-2>img{
+    margin-top: 12px;
+}
+.contentbox>div{
+    width: 360px;
+    height: 241px;
+    text-align: center;
+    display: none;
+    background-color: white;
+}
+.cont-2>.about{
+    margin-top: 54px;
+}
+.contentbox>div[class="box active"]{
+    display: block;
+}
+/*这是低端浏览器下placeholder的字体颜色*/
+.cont-1>input{
+    color: #bfbfbf;
+}
+/*这是firefox下placeholder的字体颜色*/
+.cont-1>input::-moz-placeholder {
+    color: #bfbfbf;
+}
+/*这是webkit下placeholder的字体颜色*/
+.cont-1>input::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+.wangji{
+	display:block;
+	margin-top:-8px;
+	margin-right:-230px;
+	font-size:8px;
+}

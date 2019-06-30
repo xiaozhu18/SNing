@@ -1,0 +1,395 @@
+#search{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+}
+#search .logo{
+	float: left;
+	width: 190px;
+	display: block;
+	height: 80px;
+	overflow: hidden;
+}
+.spic{
+	border-right: 1px solid gainsboro;
+	width: 140px;
+	margin-top: 50px;
+	padding-right: 20px;
+	margin-left:80px;
+}
+/*.jy{
+	width: 200px;
+	height: 200px;
+}*/
+.jinlongyu{
+	display: block;
+	float: left;
+	margin-top:-75px;
+	margin-left:228px;
+	
+}
+.spic2 img{
+	width: 100%;
+	margin-top: 22px;
+}
+#search .main_search{
+	height: 100px;
+	left: 400px;
+	position: absolute;
+	top: 50px;
+	width: 780px;
+}
+#search form{
+	margin: 0;
+	padding: 0;
+}
+#search .main_search .ng_search{
+	display: inline-block;
+	float: right;
+	margin: 28px 0 0;
+	position: relative;
+	width: 600px;
+	background: #ccc;
+}
+.search-keyword-box{
+	border-color: #ffaa00;
+	border-style: solid none solid solid;
+	border-width: 2px medium 2px 2px;
+	padding-left: 30px;
+	float: left;
+    position: relative;
+    border: 1px solid orangered;
+}
+#searchKeywords{
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #ccc;
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 1px;
+    padding: 8px 10px 8px 0;
+    width: 458px;
+}
+.search-btn{
+	background: #FFAA00;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: "MicroSoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+    height: 38px;
+    letter-spacing: 7px;
+    margin-top: 0;
+    padding: 0 30px;
+    width: 100px;
+    float: left;
+}
+.search-btn:hover{
+	background: #ff8800;
+}
+.hotwords{
+	color: #999;
+	float: left;
+	height: 18px;
+	margin-top: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+.hotwords a{
+	color: #999;
+	float: left;
+	font-size: 12px;
+	margin-right: 10px;
+	white-space: nowrap;
+}
+.hotwords a:hover{
+	color: #FF6600;
+}
+.search-btn1:hover {
+    background: #ff8800;
+}
+.search-btn1 {
+    background: black;
+    border: 0 none;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    font-family: "MicroSoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+    height: 38px;
+    letter-spacing: 7px;
+    margin-top: -38px;
+    padding: 0 30px;
+    width: 100px;
+    margin-left: 605px;
+    float: left;
+}
+/*搜索栏目结束*/
+#bottomNav{
+	height: 38px;
+	background-color: black;		
+}
+.btns2{
+	padding: 0 20px;
+	line-height: 38px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+#bottomC{
+	height: 38px;
+		/*background-color:yellow;	*/	
+}
+#bottomNav[data-fixed="fixed"]{
+        position: fixed;
+        top:0;
+        left: 0;
+        margin: 0;
+    }
+   .box02 {
+    width: 152px;
+    height: 150px;
+    display: none;
+    position: absolute;
+    top: 370px;
+    left: 125px;
+    background: black;
+    text-align: center;
+}
+	.btns2:hover .box02{
+		display: block;
+		}
+	.btns2:hover{
+		background-color: red;
+	} 	
+	.box03{
+		width: 150px;
+		height: 150px;
+		display: none;
+		position: absolute;
+		top: 20px;
+		left: 150px;
+		background: red;
+	}
+	.third:hover .box03{
+		display: block;
+		}
+/*放大镜css*/
+.box {
+	width: 100%;
+	height:700px ;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.tb-pic a {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tb-pic a img {
+	vertical-align: middle;
+}
+
+.tb-pic a {
+	*display: block;
+	*font-family: Arial;
+	*line-height: 1;
+}
+
+.tb-thumb {
+	margin: 10px 0 0;
+	overflow: hidden;
+}
+
+.tb-thumb li {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	height: 90px;
+	margin: 0 6px 0 0;
+	overflow: hidden;
+	padding: 1px;
+}
+
+.tb-s310,
+.tb-s310 a {
+	/*height: 500px;*/
+	width: 400px;
+}
+
+.tb-s310,
+.tb-s310 img {
+	max-height: 500px;
+	max-width:400px;
+}
+
+.tb-s310 a {
+	*font-size: 271px;
+}
+
+.tb-s40 a {
+	*font-size: 35px;
+}
+
+.tb-s40,
+.tb-s40 a {
+	height: 60px;
+	width: 60px;
+}
+
+.tb-booth {
+	border: 1px solid #CDCDCD;
+}
+
+.tb-thumb .tb-selected {
+	background: none repeat scroll 0 0 white;
+	height: 90px;
+	padding: 2px;
+	/*border: 1px solid ghostwhite;*/
+}
+
+.tb-thumb .tb-selected div {
+	background-color: #FFFFFF;
+	border: medium none;
+}
+
+.tb-thumb li div {
+	border: 1px solid #CDCDCD;
+}
+
+div.zoomDiv {
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+div.zoomMask {
+	position: absolute;
+	background: url("../img/mask.png") repeat scroll 0 0 transparent;
+	cursor: move;
+	z-index: 1;
+}
+.pic023{
+	margin-top:-580px ;
+	margin-left:440px ;
+	/*width: 600px;
+	height:720px;*/
+	border-right: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+.tao{
+	display: block;
+	width: 100%;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-family: simsun;
+	
+}
+.pic024{
+	margin-left: 80px;
+    margin-top: -34px;
+	
+}
+.pic024:hover{
+	border: 1px solid red;
+}
+  .btn-numbox {
+    overflow: hidden;
+    margin-top: 20px;
+     margin-left:10px;
+}
+
+.btn-numbox li {
+    float: left;
+   
+}
+
+.btn-numbox li .number,
+.kucun {
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    vertical-align: sub;
+}
+
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+    margin-left:30px;
+    
+}
+
+.btn-numbox .count .num-jian,
+.input-num,
+.num-jia {
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+    
+}
+.btn-numbox .count .input-num {
+    width: 58px;
+    height: 28px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+.bt{
+	background: #663200;
+    color: #fff;
+    font: 16px/40px microsoft yahei;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 115px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.gw{
+	background: red;
+    color: #fff;
+    font: 16px/40px microsoft yahei;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 115px;
+    height: 40px;
+    margin-top: px;
+    margin-left: 20px;
+}
+.pp{
+	display: block;
+	width: 120px;
+	height:30px;
+	font-size: 18px;
+	border: 1px solid gainsboro;
+	margin-top:-35px;
+	margin-left:360px;
+	line-height:27px;
+}
+.pp img{
+	margin-top:4px;
+	margin-left:5px;
+	}
+		

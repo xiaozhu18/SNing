@@ -1,0 +1,162 @@
+#nihuo{
+	width: 100%;
+	height: 640px;
+	margin: 0 auto;
+	background-color: ghostwhite;
+}
+
+.nianhuo{
+	text-align: center;
+}
+.goods{
+	width: 230px;
+	height: 133px;
+	/*padding: 3px;*/
+	/*background: orange;*/
+	border: 2px solid black;
+	background:white;
+	text-align: center;
+	/*margin-left: 80px;*/
+}
+ 
+.biaoqian{
+	width: 230px;
+	height: 80px;
+	text-align: center;
+	background: red;
+	/*padding: 3px;*/
+	/*background: orange;*/
+	border: 2px solid black;
+	/*margin-left: 80px;*/
+}
+.gPic{
+	width: 120px;
+	height: 120px;				
+}
+.gPic:hover{
+	border: 1px solid ghostwhite;
+}
+
+.gInf{
+	font-size: 25px;
+	background-color: white ;
+	margin-top: 10px;
+	border: 1px solid white;
+	border-radius:25px;
+}
+.biaoqian h4{
+	line-height: 20px;
+	font-size: 30px;
+	color: white;
+	margin-top: 5px;
+}
+#gBox{
+	background: red;
+	width: 1189px;
+	/*height: 460px;*/
+	margin: 0 auto;
+}
+#nn{
+	width: 230px;
+	height: 230px;
+	float: left;
+	margin-right: 5.5px;
+	margin-left: 2px;
+}
+
+#fl6{
+	width: 100%;
+	height: 1600px;
+	background-color: ghostwhite;
+	margin-top: 50px;
+}
+#Box{
+	width: 1190px;
+	height: 1510px;
+	background-color: white;
+}
+.clearfix{
+	width: 1190px;
+	height: 4517px;
+	background-color: white;
+}
+.gbox {
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 300px;
+    margin: 1px 0 0 1px;
+    background: #FFF;
+    overflow: hidden;
+    list-style: none;
+    border-left: 1px solid gainsboro;
+     border-bottom: 1px solid gainsboro;
+     border-right: 1px solid gainsboro;
+    float: left;
+}
+/*.gbox:hover{
+	border: 1px solid red;
+}*/
+
+.lazy-loading {
+    display: block;
+    width: 180px;
+    height: 180px;
+    transition: transform .5s;
+}
+.same {
+    position: absolute;
+    right: 45px;
+    width: 44px;
+    height: 20px;
+    border: 1px solid #f60;
+    border-radius: 4px;
+    top: 254px;
+    text-align: center;
+    color: #F60;
+    line-height: 20px;
+}
+.same:hover{
+	background-color: oldlace;
+}
+.price {
+    margin-left: 20px;
+    color: #F60;
+    font: bold 16px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    margin-top: 16px;
+}
+.pp {
+	margin-left: 20px;
+	margin-top: 20px;
+	
+	
+}
+.sss{
+	background-color: orange;
+	font-size: 18px;
+}
+
+/*.clearfix li p.title i.zyIcon {
+    float: left;
+    width: 35px;
+    height: 18px;
+    margin: 2px 5px 0 0;
+    background-color: orange;
+    text-align: center;
+}
+.clearfix li p.price {
+    margin-left: 20px;
+    color: #F60;
+    font: bold 16px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.clearfix li p.cxIcon {
+    position: relative;
+    width: 153px;
+    height: 16px;
+    margin: 7px auto 0;
+    overflow: hidden;
+}
+.clearfix li p.price i {
+    font-size: 10px;
+}
+*/

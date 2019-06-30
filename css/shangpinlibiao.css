@@ -1,0 +1,187 @@
+#he{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	position: fixed;
+	z-index: 10000;
+}
+#header{
+	height: 60px;
+	background: black;
+	text-align: center;
+	z-index: 90;
+}
+#nav{
+	height: 30px;
+	/*background: orange;		*/		
+}
+#left{
+	/*background: yellow;*/
+	overflow: hidden;
+	float: left;
+}
+.btns{
+	float: left;
+	font-size: 14px;
+	color: white;
+	padding: 0 10px;
+	line-height: 30px;
+}
+.btns img{
+	height: 60px;
+}
+#right{
+	/*background-color: pink;*/
+	overflow: hidden;
+	float: right;
+	margin-top: 15px;
+}
+.ico{
+	width: 15px;
+}
+#right .btns img{
+	height: 15px;
+}
+body{
+	background-color: pink;
+}
+
+.liebiao{
+	width: 1190px;
+	height: 3430px;
+	background-color:pinko;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+
+#nav1{
+	height: 60px;
+	z-index: 90;
+	background-color: white;	
+	border-bottom:2px solid red;
+	width: 1180px;
+	margin-top:60px;					
+}
+#nav1 .next{
+     display: block;
+   position: absolute;
+    border: none;
+    top: 130px;
+    right:155px;
+}
+#nav1 .next1{
+   display: block;
+   position: absolute;
+    border: none;
+    top: 130px;
+    left:155px;
+    transform: rotate(180deg);
+}
+#left1{
+	/*background: yellow;*/
+	overflow: hidden;
+	
+}
+.sj{
+	display: block; 
+	margin-top:-20px ;
+}
+.dd{
+	margin-top:10px;
+}
+.btns1{
+	float: left;
+	font-size: 14px;
+	color: grey;
+	padding: 0 10px;
+	line-height: 40px;
+	margin-left:50px;
+	text-align:center;
+}
+#left1 .btns2:hover{
+	background-color: red;
+}
+#left1 .btns1:hover{
+	color: orange;
+}
+.btns2{
+	float: left;
+	font-size: 14px;
+	color: grey;
+	padding: 0 10px;
+	line-height: 40px;
+	margin-left:50px;
+	text-align:center;
+}
+.btns3{
+	float: left;
+	font-size: 14px;
+	color: white;
+	padding: 0 10px;
+	line-height: 40px;
+	margin-left:50px;
+	text-align:center;
+	background-color: red;
+}
+#header[data-fixed="fixed"]{
+        position: fixed;
+        top:0;
+        left: 0;
+        margin: 0;
+}
+
+#Box{
+	background-color: gainsboro;
+	margin-top: 5px;
+	/*margin-left: -45px;*/
+}
+.gbox {
+    position: relative;
+    float: left;
+    width: 290px;
+    height:410px;
+    margin: 1px 0 0 1px;
+    background: #FFF;
+    overflow: hidden;
+    list-style: none;
+  /*  border-left: 1px solid gainsboro;*/
+    /*border: 1px solid gainsboro;*/
+   /* border-right: 1px solid gainsboro;*/
+    float: left;
+    margin-top:10px;
+    margin-left: 6px;
+}
+.lazy-loading {
+    display: block;
+    width: 288px;
+    height: 268px;
+    transition: transform .5s;
+}
+.pp {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size:18px
+}
+.price {
+    margin-left: 30px;
+    color: #F60;
+    font: bold 25px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    margin-top: 40px;
+}
+.same {
+  position: absolute;
+    right: 45px;
+    width: 88px;
+    height: 38px;
+    border: 1px solid #f60;
+    border-radius: 4px;
+    top: 355px;
+    text-align: center;
+    color: white;
+    line-height: 36px;
+    background-color: red;
+}
+.same:hover{
+	background-color: pink;
+}
